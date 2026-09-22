@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     # Use a modern macOS runner (macOS 14 Apple Silicon)
-    runs-on: macos-14
+    runs-on: macos-15
 
     steps:
       - name: Checkout repository
